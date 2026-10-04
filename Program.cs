@@ -32,7 +32,7 @@ for (int i = 0; i < numbers.Length; i++)
         Console.Write(numbers[i] + " ");
     }
 }
-//#endregion
+#endregion
 
 #region task4
 int n = 1;
@@ -54,49 +54,49 @@ for (int i = n; i <= m; i++)
 }
 #endregion
 
-//#region task3
-//string soz = "kertenkele";
-//for (int i = 0; i < soz.Length; i++)
-//{
-//    int cem = 0;
+#region task3
+string soz = "kertenkele";
+for (int i = 0; i < soz.Length; i++)
+{
+    int cem = 0;
 
-//    for (int j = 0; j < soz.Length; j++)
-//    {
-//        if (soz[i] == soz[j])
-//        {
-//            cem++;
-//        }
-//    }
-//    if (cem == 1)
-//    {
-//        Console.WriteLine(soz[i]);
-//        break;
-//    }
-//}
-//#endregion
+    for (int j = 0; j < soz.Length; j++)
+    {
+        if (soz[i] == soz[j])
+        {
+            cem++;
+        }
+    }
+    if (cem == 1)
+    {
+        Console.WriteLine(soz[i]);
+        break;
+    }
+ }
+#endregion
 
-//#region task6
-//string soz = "mam";
-//char enCox = ' ';
-//int maxCount = 0;
-//for (int i = 0; i < soz.Length; i++)
-//{
-//    int count = 0;
-//    for (int j = 0; j < soz.Length; j++)
-//    {
-//        if (soz[i] == soz[j])
-//        {
-//            count++;
-//        }
-//    }
-//    if (count > maxCount)
-//    {
-//        maxCount = count;
-//        enCox = soz[i];
-//    }
-//}
-//Console.WriteLine(enCox);
-//#endregion
+#region task6
+string soz = "mam";
+char enCox = ' ';
+int maxCount = 0;
+for (int i = 0; i < soz.Length; i++)
+{
+    int count = 0;
+    for (int j = 0; j < soz.Length; j++)
+    {
+        if (soz[i] == soz[j])
+        {
+            count++;
+        }
+    }
+    if (count > maxCount)
+    {
+        maxCount = count;
+        enCox = soz[i];
+    }
+}
+Console.WriteLine(enCox);
+#endregion
 
 
 
