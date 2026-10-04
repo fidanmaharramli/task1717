@@ -98,70 +98,62 @@ for (int i = 0; i < soz.Length; i++)
 Console.WriteLine(enCox);
 #endregion
 
+#region task7
+string soz = "salam mellim";
+string yenisoz = "";
+for (int i = 0; i < soz.Length; i++)
+{
+    if (soz[i] != ' ')
+    {
+        yenisoz = yenisoz + soz[i];
+    }
+}
+Console.WriteLine(yenisoz);
+#endregion
+
+#region task8
+string[] sozler = { "salam", "fidan", "sagol" };
+char herf = 'a';
+int cem = 0;
+for (int i = 0; i < sozler.Length; i++)
+{
+    for (int j = 0; j < sozler[i].Length; j++)
+    {
+        if (sozler[i][j] == herf)
+        {
+            cem++;
+        }
+    }
+}
+Console.WriteLine(cem);
+#endregion
 
 
-
-
-//#region task7
-//string soz = "salam mellim";
-//string yenisoz = "";
-//for (int i = 0; i < soz.Length; i++)
-//{
-//    if (soz[i] != ' ')
-//    {
-//        yenisoz = yenisoz + soz[i];
-//    }
-//}
-//Console.WriteLine(yenisoz);
-//#endregion
-
-
-
-
-
-//#region task8
-//string[] sozler = { "salam", "fidan", "sagol" };
-//char herf = 'a';
-//int cem = 0;
-//for (int i = 0; i < sozler.Length; i++)
-//{
-//    for (int j = 0; j < sozler[i].Length; j++)
-//    {
-//        if (sozler[i][j] == herf)
-//        {
-//            cem++;
-//        }
-//    }
-//}
-//Console.WriteLine(cem);
-//#endregion
-
-
-//#region task10
-//int a = 10;
-//int b = 5;
-//char simvol = '+';
-//if (simvol == '+')
-//{
-//    Console.WriteLine(a + b);
-//}
-//else if (simvol == '-')
-//{
-//    Console.WriteLine(a - b);
-//}
-//else if (simvol == '*')
-//{
-//    Console.WriteLine(a * b);
-//}
-//else if (simvol == '/')
-//{
-//    Console.WriteLine(a / b);
-//}
-//else
-//{
-//    Console.WriteLine("Yanlis simvol");
-//}
-//#endregion
+#region task10
+int a = 10;
+int b = 5;
+char simvol = '+';
+if (simvol == '+')
+{
+    Console.WriteLine(a + b);
+}
+else if (simvol == '-')
+{
+    Console.WriteLine(a - b);
+}
+else if (simvol == '*')
+{
+    Console.WriteLine(a * b);
+}
+else if (simvol == '/')
+{
+    Console.WriteLine(a / b);
+}
+else
+{
+    Console.WriteLine("Yanlis simvol");
+}
+#endregion
 
 #region task11
 string soz = "salam";
