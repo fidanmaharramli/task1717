@@ -170,11 +170,6 @@ for (int i = n; i <= m; i++)
 //}
 //#endregion
 
-
-
-
-
-
 //#region task11
 //string soz = "salam";
 //bool tapildi = false;
@@ -194,12 +189,6 @@ for (int i = n; i <= m; i++)
 //    Console.WriteLine("a herfi yoxdur");
 //}
 //#endregion
-
-
-
-
-
-
 
 //#region task12
 //string soz = "mama";
