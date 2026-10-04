@@ -34,12 +34,6 @@
 //}
 //#endregion
 
-
-
-
-
-
-
 #region task4
 int n = 1;
 int m = 100;
