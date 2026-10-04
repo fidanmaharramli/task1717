@@ -1,37 +1,37 @@
-﻿//#region task1
-//int[] numbers = { 5, 4, 6 };
-//for (int i = 0; i < numbers.Length; i++)
-//{
-//    int factorial = 1;
-//    for (int j = 1; j <= numbers[i]; j++)
-//    {
-//        factorial = factorial * j;
-//    }
-//    numbers[i] = factorial;
-//}
-//for (int i = 0; i < numbers.Length; i++)
-//{
-//    Console.Write(numbers[i] + " ");
-//}
-//#endregion
+﻿#region task1
+int[] numbers = { 5, 4, 6 };
+for (int i = 0; i < numbers.Length; i++)
+{
+    int factorial = 1;
+    for (int j = 1; j <= numbers[i]; j++)
+    {
+        factorial = factorial * j;
+    }
+    numbers[i] = factorial;
+}
+for (int i = 0; i < numbers.Length; i++)
+{
+    Console.Write(numbers[i] + " ");
+}
+#endregion
 
-//#region task2
-//int[] numbers = { 7, 12, 5, 8 };
-//int enKicik = numbers[0];
-//for (int i = 1; i < numbers.Length; i++)
-//{
-//    if (numbers[i] < enKicik)
-//    {
-//        enKicik = numbers[i];
-//    }
-//}
-//for (int i = 0; i < numbers.Length; i++)
-//{
-//    if (numbers[i] != enKicik)
-//    {
-//        Console.Write(numbers[i] + " ");
-//    }
-//}
+#region task2
+int[] numbers = { 7, 12, 5, 8 };
+int enKicik = numbers[0];
+for (int i = 1; i < numbers.Length; i++)
+{
+    if (numbers[i] < enKicik)
+    {
+        enKicik = numbers[i];
+   }
+}
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (numbers[i] != enKicik)
+    {
+        Console.Write(numbers[i] + " ");
+    }
+}
 //#endregion
 
 #region task4
