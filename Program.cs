@@ -54,9 +54,6 @@ for (int i = n; i <= m; i++)
 }
 #endregion
 
-
-
-
 //#region task3
 //string soz = "kertenkele";
 //for (int i = 0; i < soz.Length; i++)
