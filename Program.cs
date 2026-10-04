@@ -163,67 +163,67 @@ for (int i = n; i <= m; i++)
 //}
 //#endregion
 
-//#region task11
-//string soz = "salam";
-//bool tapildi = false;
-//for (int i = 0; i < soz.Length; i++)
-//{
-//    if (soz[i] == 'a' || soz[i] == 'a')
-//    {
-//        tapildi = true;
-//    }
-//}
-//if (tapildi)
-//{
-//    Console.WriteLine("a herfi var");
-//}
-//else
-//{
-//    Console.WriteLine("a herfi yoxdur");
-//}
-//#endregion
+#region task11
+string soz = "salam";
+bool tapildi = false;
+for (int i = 0; i < soz.Length; i++)
+{
+    if (soz[i] == 'a' || soz[i] == 'a')
+    {
+       tapildi = true;
+    }
+}
+if (tapildi)
+{
+    Console.WriteLine("a herfi var");
+}
+else
+{
+   Console.WriteLine("a herfi yoxdur");
+}
+#endregion
 
-//#region task12
-//string soz = "mama";
-//int cem = 0;
-//for (int i = 0; i < soz.Length; i++)
-//{
-//    if (soz[i] == 'a')
-//    {
-//        cem++;
-//    }
-//}
-//Console.WriteLine(cem);
-//#endregion
+#region task12
+string soz = "mama";
+int cem = 0;
+for (int i = 0; i < soz.Length; i++)
+{
+   if (soz[i] == 'a')
+   {
+       cem++;
+   }
+}
+Console.WriteLine(cem);
+#endregion
 
-//#region task13
-//int eded = 8;
-//if (eded > 0 && eded % 2 == 0)
-//{
-//    Console.WriteLine(eded * eded);
-//}
-//else
-//{
-//    Console.WriteLine("Eded musbet ve cut deyil");
-//}
-//#endregion
+#region task13
+int eded = 8;
+if (eded > 0 && eded % 2 == 0)
+{
+   Console.WriteLine(eded * eded);
+}
+else
+{
+  Console.WriteLine("Eded musbet ve cut deyil");
+}
+#endregion
 
-//#region task14
-//string tehsil = "programming";
-//if (tehsil == "programming")
-//{
-//    Console.WriteLine("400 saat");
-//}
-//else if (tehsil == "design")
-//{
-//    Console.WriteLine("250 saat");
-//}
-//else if (tehsil == "system")
-//{
-//    Console.WriteLine("200 saat");
-//}
-//else
-//{
-//    Console.WriteLine("tehsil novu yanlisdir");
-//}
-//#endregion
+#region task14
+string tehsil = "programming";
+if (tehsil == "programming")
+{
+    Console.WriteLine("400 saat");
+}
+else if (tehsil == "design")
+{
+    Console.WriteLine("250 saat");
+}
+else if (tehsil == "system")
+{
+   Console.WriteLine("200 saat");
+}
+else
+{
+    Console.WriteLine("tehsil novu yanlisdir");
+}
+#endregion
