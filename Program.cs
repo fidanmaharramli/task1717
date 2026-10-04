@@ -15,7 +15,6 @@
 //}
 //#endregion
 
-
 //#region task2
 //int[] numbers = { 7, 12, 5, 8 };
 //int enKicik = numbers[0];
