@@ -75,9 +75,6 @@ for (int i = n; i <= m; i++)
 //}
 //#endregion
 
-
-
-
 //#region task6
 //string soz = "mam";
 //char enCox = ' ';
@@ -140,10 +137,6 @@ for (int i = n; i <= m; i++)
 //#endregion
 
 
-
-
-
-
 //#region task10
 //int a = 10;
 //int b = 5;
@@ -203,10 +196,6 @@ for (int i = n; i <= m; i++)
 //Console.WriteLine(cem);
 //#endregion
 
-
-
-
-
 //#region task13
 //int eded = 8;
 //if (eded > 0 && eded % 2 == 0)
@@ -218,12 +207,6 @@ for (int i = n; i <= m; i++)
 //    Console.WriteLine("Eded musbet ve cut deyil");
 //}
 //#endregion
-
-
-
-
-
-
 
 //#region task14
 //string tehsil = "programming";
